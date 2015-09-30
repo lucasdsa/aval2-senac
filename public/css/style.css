@@ -1,0 +1,123 @@
+﻿* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    
+    color: mediumvioletred;
+}
+
+div#header, div#content {
+    padding: 10px;
+}
+
+div#header {
+    box-shadow: 0 3px 8px 1px black;
+}
+
+div#content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    margin: 4px;
+}
+
+div.form{
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    margin: auto;
+}
+
+td, th {
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+a:active {
+    color: midnightblue;
+}
+
+button {
+    margin-right: 5px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 3px 0.5px black;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button:active {
+    color: blueviolet;
+}
+
+button.edit {
+    background-color: lightseagreen;
+}
+
+button.remove {
+    background-color: lightcoral;
+}
+
+ul.menubar {
+    padding: 0;
+}
+
+li.menu {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+ul.menulist {
+    position: absolute;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+    visibility: hidden;
+    z-index: 1;
+    
+    background-color: #353535;
+}
+
+ul.menulist li {
+    white-space: nowrap;
+    margin: 8px;
+    display: block;
+}
+
+li.menu:hover  ul.menulist {
+    visibility: visible;
+}
+
+li {
+    list-style: none;
+}
